@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <div class="logoImg">
+          <img src="https://cdn-icons-png.flaticon.com/512/4549/4549424.png" alt="logo" class="logo">
+          <span class="logo">Smith's Consulting</span>
+        </div>
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="#" class="homeButton">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">News
+                
+              </li>
+            <li>
+              <a href="#">Testimonials</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <header>
+      <h1>Providing deluxe consulting services to start-up media companies.</h1>
+      <button>Find out more.</button>
+    </header>
+    <main>
+      <section class="banner">
+        <h2> Helping to make a differince in businesses all over the globe.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet vel dolor exercitationem itaque minus tempora labore dignissimos repudiandae quisquam non, adipisci atque, aliquam repellendus quaerat aliquid quas accusantium et temporibus facere architecto voluptate assumenda voluptatem cupiditate. </p>
+        <p> Error consequatur repudiandae dicta nobis officiis libero velit soluta, maiores vitae ad voluptatibus modi iure ea nisi earum quos porro rerum vel perspiciatis dignissimos dolorem? Incidunt quis porro expedita quam dolorem, totam magni!</p>
+      
+      </section> <!--end banner-->
+      <section class="bannerTwo">
+        <div>
+          <img src="https://img.icons8.com/small/344/contacts.png" alt="person icon">
+          <h3>Low-risk</h3>
+          <p>Nesciunt quidem quod odit harum ipsum velit eius repudiandae magni quisquam nostrum.</p>
+          <ul>
+           <li>Nam optio, labore rem non, eius ut similique facere doloremque voluptate neque nemo, sed ipsam.</li>
+           <li>Veniam soluta hic blanditiis animi facilis? Esse atque similique iusto perspiciatis earum.</li>
+           <li>Qui voluptate esse nam maiores, modi repellat earum nulla minima nihil quidem ipsum aperiam illum.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/small/344/sun.png" alt="sun icon">
+          <h3>High-reward</h3>
+          <p>Quidem amet sapiente unde molestiae maiores quam deserunt officiis, voluptatum odio expedita.</p>
+          <ul>
+            <li>Quod vero excepturi consequuntur maxime alias atque voluptates cumque assumenda earum</li> Quam sint debitis iste laudantium.
+            <li>Atque maiores architecto illum non exercitationem perferendis eos accusantium odio dolores officiis aliquid maxime sed voluptate, suscipit inventore culpa repudiandae quos vitae, doloribus, iusto neque iste.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/small/344/toolbox.png" alt="suitcase icon">
+          <h3>Great Communication</h3>
+          <p> Eveniet excepturi eum at qui sint sed deleniti error assumenda incidunt rerum!</p>
+          <ul>
+            <li>Impedit repellat, deserunt, excepturi magnam voluptas officia, ipsum totam voluptates quae neque laudantium.</li>
+            <li> Quis sit voluptates ab porro blanditiis laborum, animi iusto harum labore dolor autem corporis nam non, facilis rerum suscipit dolorum possimus, repellat natus</li>
+            <li>Eveniet blanditiis laboriosam est praesentium aut.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/small/344/user-male.png" alt="person icon">
+          <h3>Customer Services</h3>
+          <p>Provident dicta quam odio at harum beatae est blanditiis cumque cum illo!</p>
+          <ul>
+             <li>Ad iure tempore consequatur quae ratione id hic eligendi sequi perferendis, laudantium ipsum explicabo architecto est quis, debitis quaerat a illo ipsam eveniet magni ullam dignissimos.</li> <li>Deleniti itaque facilis, blanditiis incidunt quam neque laborum provident, deserunt vero unde aperiam amet cupiditate reprehenderit.</li>
+          </ul>
+        </div>
+      </section><!-- End bannerTwo-->
+      <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonialGrid">
+          <div class="testimonialBoxOne">
+            <h3>Johnny Christoph</h3>
+            <p>Quia quisquam fugit voluptatum a porro reiciendis atque adipisci nulla qui et!</p>
+          </div>
+          <div class="testimonialBoxTwo">
+            <h3>Dr. Kissler of LevelUp</h3>
+            <p> Tempore odit nostrum vel voluptatum excepturi dolorem enim sapiente itaque impedit consectetur.</p>
+          </div>
+          <div class="testimonialBoxThree">
+            <h3>Lee Jones</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium sit esse neque sunt veniam asperiores, dolorem quasi aperiam vitae.</p>
+          </div>
+        </div><!--end testimonialGrid-->
+      </section><!--end Testimionials-->
+    </main>
+  </body>
+</html>
