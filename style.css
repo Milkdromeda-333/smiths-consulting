@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Open+Sans:wght@300&display=swap');
+
+:root {
+ --main-font: 'BIZ UDGothic', sans-serif;
+ --secondary-font: 'Open Sans', sans-serif;
+ --main-color: #09C1FF;
+ --shade: #0791BF;
+}
+
+body {
+  margin: 0;
+  font-size: 25px;
+  font-family: var(--secondary-font);
+}
+
+/*--NAV--*/
+img.logo {
+  height: 2rem;
+}
+nav {
+  font-size: 1.2rem;
+  height: 4rem;
+}
+
+nav li {
+  display: inline;
+  width: fit-content;
+  padding: 15px;
+}
+
+nav ul {
+  padding: 0;
+  display: inline;
+}
+
+nav li a {
+text-decoration: none;
+color: black;
+}
+
+nav li a:hover{
+text-decoration: underline;
+text-decoration-color: var(--main-color);
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoImg {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+/*Header*/
+header {
+  background-image: url(https://images.unsplash.com/photo-1633113214735-2cd84b3587ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: 100%;
+  background-position: bottom;
+  height: 75vh;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2rem;
+}
+
+header h1 {
+  width: 50%;
+  /*position: relative;
+  top: 40%;*/
+  font-size: 3.2rem;
+  text-shadow: 2px 2px 5px black;
+  padding-top: 2rem;
+}
+
+header button {
+  width: 12rem;
+  height: 3rem;
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  background-color: var(--main-color);
+  border: none;
+  color: whitesmoke;
+  border-radius: 50px;
+}
+
+header button:hover {
+  background-color: var(--shade);
+}
+
+.homeButton {
+  color: var(--main-color)
+}
+
+/* BANNER */
+.banner {
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0rem;
+  color: white;
+}
+
+.banner p {
+  width: 50%;
+}
+
+.banner h2 {
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  width: 54%;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-bottom: solid 2px white;
+}
+
+.banner button {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+}
+
+.banner button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Banner Two */
+.bannerTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 1.2rem;
+  gap: 10px;
+}
+
+.bannerTwo div:nth-child(odd) {
+  background-image: linear-gradient(rgba(255,255,255,0), rgba(195,240,255,1));
+}
+
+.bannerTwo div {
+  padding: 10px;
+}
+
+.bannerTwo img {
+  width: 10rem;
+  height: auto;
+  position: relative;
+  left: 28%;
+}
+
+.bannerTwo h3 {
+  text-align: center;
+}
+
+/* testimonial banner */
+.testimonialGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.testimonialBoxOne {
+  background-image: url('https://images.unsplash.com/photo-1633114072836-15d933c6d3a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+
+.testimonials p,
+.testimonials h3{
+  width: 50%;
+  height: 12rem;
+  text-align: center;
+}
