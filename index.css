@@ -39,8 +39,10 @@
         </div>
     </nav>
     <header>
-      <h1>Providing deluxe consulting services to start-up media companies.</h1>
-      <button>Find out more.</button>
+      <div>
+        <h1>Providing deluxe consulting services to start-up media companies.</h1>
+        <button>Find out more</button>
+      </div>
     </header>
     <main>
       <section class="banner">
@@ -97,14 +99,75 @@
           </div>
           <div class="testimonialBoxTwo">
             <h3>Dr. Kissler of LevelUp</h3>
-            <p> Tempore odit nostrum vel voluptatum excepturi dolorem enim sapiente itaque impedit consectetur.</p>
+            <p> Tempore odit nostrum vel voluptatum excepturi dsectetur.</p>
           </div>
           <div class="testimonialBoxThree">
             <h3>Lee Jones</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium sit esse neque sunt veniam asperiores, dolorem quasi aperiam vitae.</p>
           </div>
+          <div class="testimonialBoxFour">
+            <h3>Solomon</h3>
+              <p>Repudiandae in at excepturi amet, minima officiis dolores ut eveniet provident ipsum! Tempore, minima eum consectetur excepturi soluta mollitia vitae aut quo.!</p>
+          </div>
+          <div class="testimonialBoxFive">
+            <h3>Anonymous</h3>
+            <p>Dicta, autem veritatis. Sed, perferendis pariatur! Doloremque porro quis nesciunt quod. Beatae.</p>
+          </div>
+          <div class="testimonialBoxSix">
+            <h3>Ida Cole</h3>
+            <p>Reprehenderit ratione neque quam aliquid, quos ex illo odit, numquam magnam architecto corporis quasi animi amet veniam saepe nisi natus non voluptate!</p>
+          </div>
         </div><!--end testimonialGrid-->
       </section><!--end Testimionials-->
     </main>
+    <footer>
+      <address>
+       <div>
+         <p class="footerMargin">Address</p>
+         <p>555 Jones blvd</p>
+         <p>Las Vegas. NV</p>
+         <p>United States</p>
+       </div>
+       <div>
+         <p class="footerMargin">Telephone</p>
+         <p>
+           <a href="tel:123-456-7890">123-456-7890</a>
+        </p>
+       </div>
+       <div>
+         <p class="footerMargin">Email</p>
+         <p>
+           <a href="mailto:Smithconsulting@smail.com">Smithconsulting@smail.com</a>
+          </p>
+         <p id="copy">&copy; Copyright</p>
+       </div>
+      </address>
+      <div>
+        <form>
+          <h3 class="header">Contact Us</h3>
+          <!-- Fname input -->
+          <div class="firstName">
+            <label for="fName">Name</label><br>
+            <input type="text" id="fName" name="first name">
+          </div>
+          <!-- Lname input -->
+          <div class="lastName">
+            <label for="lName">Last Name</label><br>
+            <input type="text" id="lName" name="last name">
+          </div>
+          <!-- email -->
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="emaial" id="email" name="email">
+          </div>
+            <!-- message -->
+            <div class="message">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Enter message to owner here."  cols="45"></textarea>
+            </div>
+            <button class="button">Submit</button>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
