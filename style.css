@@ -16,9 +16,14 @@ body {
 img.logo {
   height: 2rem;
 }
+
 nav {
   font-size: 1.2rem;
-  height: 4rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 nav li {
@@ -42,15 +47,15 @@ text-decoration: underline;
 text-decoration-color: var(--main-color);
 }
 .nav {
-  display: flex;
+  display: fle;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
-.logoImg {
-  position: absolute;
-  top: 10px;
-  left: 5px;
+.logoImg span {
+  position: relative;
+  top: -10px;
   font-weight: 800;
 }
 
@@ -63,7 +68,7 @@ header {
   background-image: url(https://images.unsplash.com/photo-1633113214735-2cd84b3587ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-size: 100%;
   background-position: bottom;
-  height: 75vh;
+  height: 85vh;
   background-repeat: no-repeat;
   color: white;
   padding: 2rem;
@@ -74,11 +79,8 @@ header div {
 
 header h1 {
   width: 50%;
-  /*position: relative;
-  top: 40%;*/
   font-size: 3.2rem;
   text-shadow: 2px 2px 5px black;
-  /* padding-top: 5rem; */
  
 }
 
@@ -166,7 +168,7 @@ header h1 {
 }
 
 .testimonialGrid div {
-background-color: var(--main-color);
+background-color: rgba(9, 193, 255, .7);
 padding: 10px;
 }
 
@@ -244,7 +246,8 @@ form {
 
 form input {
   height: 30px;
-  caret-color: var(--main-color)
+  caret-color: var(--main-color);
+  font-family: inherit;
 }
 
 form label {
@@ -305,5 +308,5 @@ background-color: var(--shade);
 }
 
 button:active {
-  background-color: var(--main-color)
+  background-color: var(--main-color);
 }
