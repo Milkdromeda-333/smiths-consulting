@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
 :root {
- --main-font: 'BIZ UDGothic', sans-serif;
  --secondary-font: 'Open Sans', sans-serif;
  --main-color: #09C1FF;
  --shade: #0791BF;
@@ -52,6 +51,7 @@ text-decoration-color: var(--main-color);
   position: absolute;
   top: 10px;
   left: 5px;
+  font-weight: 800;
 }
 
 /*Header*/
@@ -64,6 +64,9 @@ header {
   color: white;
   padding: 2rem;
 }
+header div {
+  transform: translateY(50%);
+}
 
 header h1 {
   width: 50%;
@@ -71,26 +74,8 @@ header h1 {
   top: 40%;*/
   font-size: 3.2rem;
   text-shadow: 2px 2px 5px black;
-  padding-top: 2rem;
-}
-
-header button {
-  width: 12rem;
-  height: 3rem;
-  font-family: var(--secondary-font);
-  font-size: 1.2rem;
-  background-color: var(--main-color);
-  border: none;
-  color: whitesmoke;
-  border-radius: 50px;
-}
-
-header button:hover {
-  background-color: var(--shade);
-}
-
-.homeButton {
-  color: var(--main-color)
+  /* padding-top: 5rem; */
+ 
 }
 
 /* BANNER */
@@ -109,7 +94,7 @@ header button:hover {
 }
 
 .banner h2 {
-  font-weight: 900;
+  font-weight: 700;
   text-transform: capitalize;
   font-size: 2.5rem;
   width: 54%;
@@ -164,15 +149,157 @@ header button:hover {
 .testimonialGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  gap: 10px;
+  margin: 50px;
 }
 
-.testimonialBoxOne {
-  background-image: url('https://images.unsplash.com/photo-1633114072836-15d933c6d3a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+.testimonials {
+  background-image: linear-gradient(white, black);
+  height: 50rem;
+  color: white;
 }
 
-.testimonials p,
-.testimonials h3{
-  width: 50%;
-  height: 12rem;
+.testimonialGrid div {
+background-color: var(--main-color);
+padding: 10px;
+}
+
+.testimonials h2{
   text-align: center;
+  padding-top: 2rem;
+  color: black;
+  font-size: 3rem;
+  text-shadow: 2px 5px 5px grey;
+  font-weight: 700;
+}
+
+.testimonials h3 {
+  font-size: 1rem;
+}
+
+.testimonials p::before {
+  content: url('https://img.icons8.com/small/32/000000/comments.png');
+  position: relative;
+  right: 5px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+address * {
+  margin: 0rem;
+}
+
+.footerMargin {
+  margin: 2rem 0 1rem;
+}
+
+.footerMargin::after {
+  content: "-";
+  margin-left: 5px;
+}
+
+#copy {
+  margin-top: 2rem;
+}
+
+address a {
+  color: inherit;
+}
+
+address a:hover {
+  color: var(--shade);
+}
+
+/* Form */
+form {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: 
+  "header header"
+  "name lname"
+  "email email"
+  "message message"
+  "button button";
+  gap: 10px;
+  border: 1px white solid;
+}
+
+form input {
+  height: 30px;
+  caret-color: var(--main-color)
+}
+
+form label {
+  width: 100%;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+}
+
+.firstName {
+  grid-area: name;
+}
+
+.lastName {
+  grid-area: lname;
+}
+
+.email {
+  grid-area: email;
+}
+
+.email input {
+  width: 100%;
+}
+
+.message {
+  grid-area: message;
+}
+
+.message textarea {
+  width: 100%;
+  caret-color: var(--main-color);
+}
+
+.message label {
+  display: block;
+}
+
+.button {
+  grid-area: button;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  margin: 0 auto;
+  color: inherit;
+  background-color: var(--main-color);
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button:hover {
+background-color: var(--shade);
+}
+
+button:active {
+  background-color: var(--main-color)
 }
