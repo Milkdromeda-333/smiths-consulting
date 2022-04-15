@@ -25,6 +25,7 @@ button {
   border: none;
   font-family: inherit;
   font-size: 1rem;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -104,6 +105,10 @@ header h1 {
   font-size: 3.2rem;
   text-shadow: 2px 2px 5px black;
 
+}
+
+header button {
+  box-shadow: 2px 2px 10px black;
 }
 
 /* BANNER */
@@ -568,10 +573,8 @@ details p a {
   }
 
   header button {
-    header button {
     width: 45%;
     height: 15%;
     padding: 10px;
-  }
   }
 }
