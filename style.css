@@ -568,7 +568,10 @@ details p a {
   }
 
   header button {
-    width: 80%;
-    height: auto;
+    header button {
+    width: 45%;
+    height: 15%;
+    padding: 10px;
+  }
   }
 }
